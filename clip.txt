@@ -1,0 +1,6 @@
+Clip moments (Lethal Company inside SUPERHOT), each one SEEN in the demo with the preview + contact sheets:
+[x] 1. The white SUPERHOT facility is a dark warehouse: title "LETHAL COMPANY TAKEOVER", the orange quota panel, the scanner ring pings and orange tags show scrap values and "Coil-Head / Employee" over the monsters (first 6 s).
+[x] 2. Time freezes (SUPERHOT bullet time) and a hazmat-helmet employee shatters: the helmet pops off and scrap spills out in slow motion, the bot walks into it, the quota fills, "QUOTA MET" (about 10 to 20 s).
+[x] 3. Scrap is ammo: a cash register is thrown in bullet time and kills the Coil-Head (the spring-neck mannequin), "DIRECT HIT" on the terminal.
+[x] 4. The Hoarding Bug runs for the scrap, grabs a piece, and a thrown teapot squashes it, dropping the loot back (shows in most runs around 20 to 35 s; its timing depends on where the bug spawns).
+Weak spot: between kills the bot sometimes looks at a wall for a second or two while it walks to the next piece of loot (the warehouse is cluttered).

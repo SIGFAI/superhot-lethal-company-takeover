@@ -1,0 +1,1 @@
+Needs SUPERHOT (PC) with BepInEx 5 x64. Copy the BepInEx folder from the mod into the game folder and launch SUPERHOT. In game: Q scans for scrap, G throws scrap from your bag, F toggles the flashlight.
