@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "Lethal Company Takeover",
   "tagline": "Bring Lethal Company into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "Collect scrap in the warehouse to meet the Company's quota while employees and a Coil-Head hunt you.",
+    "Walk up to scrap to pick it up; press G to throw the last piece in your bag at enemies.",
+    "Press Q to scan for scrap and F to toggle the flashlight.",
+    "Watch out for the Hoarding Bug: it steals scrap."
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -172,8 +178,5 @@
     "id": "superhot",
     "status": "draft"
   },
-  "built_at": "2026-10-05T15:28:11.811Z",
-  "notes": [
-    "Needs SUPERHOT (PC) with BepInEx 5 x64. Copy the BepInEx folder from the mod into the game folder and launch SUPERHOT. In game: Q scans for scrap, G throws scrap from your bag, F toggles the flashlight."
-  ]
+  "built_at": "2026-10-05T15:28:11.811Z"
 }
