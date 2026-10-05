@@ -1,0 +1,179 @@
+{
+  "id": "sigf/superhot-lethal-company-takeover",
+  "version": "1.0.0",
+  "name": "Lethal Company Takeover",
+  "tagline": "Bring Lethal Company into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "superhot",
+      "role": "host",
+      "engine": "SUPERHOT (itch build, Unity 2020.3.24f1 Mono, 64-bit, game exe SH.exe) + BepInEx 5.4.23.2 x64 C# plugin (net472)"
+    },
+    {
+      "game": "lethal",
+      "role": "guest",
+      "label": "Lethal Company"
+    }
+  ],
+  "requires": [
+    {
+      "id": "bepinex"
+    }
+  ],
+  "install": [
+    {
+      "game": "superhot",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "superhot-lethal-company-takeover.zip",
+          "dst": "{game}",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/big_bolt.png",
+              "sha256": "91f58d0f8eaa475b12a6d07e15ba17762dbde4848fed127ecf293265428a6a09"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/cash_register.png",
+              "sha256": "38f7198710bcc511008e0c10fe006a45dccc727557492aba7f93032fcda3d36d"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/clown_horn.png",
+              "sha256": "baef55e2c79b9fefe0a21652d3af54a06cf075901039ab9f895cd956c2c06740"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/coilhead.png",
+              "sha256": "ccc6ade6aadee086e2a77833568087f7a47ed7027349f7dabfdca70cb713b04e"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/gold_bar.png",
+              "sha256": "7ce3a754c813abaa7eee7346ac9a899101f79978fa1ad66e6f24c19501603046"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/hazmat_helmet.png",
+              "sha256": "a8dce2d9d4ce2baaa7807faf9b5108aa1ed994d2ec61190126c5b3f8d0b69584"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/hoarder_bug.png",
+              "sha256": "9e92f1f6aaac1aa698f37d0cbd106fcdbac47680a9cc8cc85d643799929e0838"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/teapot.png",
+              "sha256": "e3016347157544355ec265c8ece1dc8c51b61783ef75e28b6f1fee2b02b53ea0"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/yield_sign.png",
+              "sha256": "2d1e38bf9661752a61b4606d4889cb1ee717bf7f6d29d5cafa2bdc6c307ab60b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/alarm_beep.wav",
+              "sha256": "4822ceb218079a69e7fede0ce2c42c5a706a6c9c09c0883ab0d25241490e75ab"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/cash_pickup.wav",
+              "sha256": "216854330a4187783c3cb5bba939d31ff0c13bcb4f3a561de3ffbd120986131a"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/drone.wav",
+              "sha256": "bc2627ba57592cb240b11cc03cf2d5f08feaa582fae781aa6c32a08e44a416e8"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/enemy_hit.wav",
+              "sha256": "49fe321695be9b7612f518ee6b4b472b5150ee25604715238e9b3d3498759f90"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/flashlight_click.wav",
+              "sha256": "dfedd580a530f7258bb73f51782445ad6fefe95bd646d3af65dad2effccc02e2"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/monster_growl.wav",
+              "sha256": "ad9918ffeeae2c7e068ccb31c5f2d75aadd8b47aef328eacd8c4f5018a429632"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/quota_done.wav",
+              "sha256": "bb054cacb5984ea30eec17cbf438bf94e5e766583af7f86813bc0eb4dfb9ca51"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/scan_ping.wav",
+              "sha256": "618fd7e05fff904624644b65aaa2fa6a1a9d047183bc73c6a73e056340616fd6"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/scrap_drop.wav",
+              "sha256": "da80cd287d6d1fc5273de818d316aa79ac647c73d17f9e52fcf0fd6dde2beb28"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/ship_horn.wav",
+              "sha256": "3082b7038b09b03b64794c19adeb719cc17aefede0b01654b3830e443a0724f8"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/spring_boing.wav",
+              "sha256": "cbb205f700325826ef4e8f0870bb45c313221eb7a220e7c5ece297b013b5fe83"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/v_bug.wav",
+              "sha256": "f493216749f0bbaaf5830d2746ef93b0acf04292a116be7f4c42e25c9f29ded6"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/v_dead.wav",
+              "sha256": "3cb9dd17623b0fdd4711735aef8c1db6afd1476cb538510d99955faadc890247"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/v_quota.wav",
+              "sha256": "c6f75dc95c30c9c3e4e33d59fbd443937a41bf0c98d83cd911902980837ad794"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/v_welcome.wav",
+              "sha256": "ecdffda37f4ecc11b783e2086f71ac3917c6d43370f6164045670ea09c50e184"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.dll",
+              "sha256": "d99c758beed84c4f619411c0cce990478a801576f1306566e34485e87792618a"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.pdb",
+              "sha256": "831e6085d4924caf31ca2b528d3f2d6f5edca07153cd345bb14d6ac0f1957889"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/superhot-lethal-company-takeover/releases/download/v1.0.0/superhot-lethal-company-takeover.zip",
+          "sha256": "c0b29a9e473bf81ea1cf1949cf0cb72d81614b0b40309493a206b0713b552baa",
+          "size": 19288179
+        }
+      ],
+      "loader": "bepinex"
+    }
+  ],
+  "launch": [
+    {
+      "game": "superhot",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "superhot-lethal-company-takeover.zip",
+      "url": "https://github.com/SIGFAI/superhot-lethal-company-takeover/releases/download/v1.0.0/superhot-lethal-company-takeover.zip",
+      "sha256": "c0b29a9e473bf81ea1cf1949cf0cb72d81614b0b40309493a206b0713b552baa",
+      "size": 19288179
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/superhot-lethal-company-takeover",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "superhot",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:28:11.811Z",
+  "notes": [
+    "Needs SUPERHOT (PC) with BepInEx 5 x64. Copy the BepInEx folder from the mod into the game folder and launch SUPERHOT. In game: Q scans for scrap, G throws scrap from your bag, F toggles the flashlight."
+  ]
+}
